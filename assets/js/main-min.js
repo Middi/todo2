@@ -1,0 +1,1 @@
+$("li").click(function(){"rgb(128, 128, 128)"===$(this).css("color")?$(this).css({color:"black",textDecoration:"none"}):$(this).css({color:"gray",textDecoration:"line-through"})});
