@@ -18,6 +18,11 @@ $("input[type='text']").keypress(function(event){
         //Grabbing todo text from input
         var todoInput = $(this).val();
         $(this).val("");
-        $("ul").append('<li><span>X</span> ' + todoInput + '</li>');
+        $("ul").append('<li><span><i class="fa fa-trash"></i></span> ' + todoInput + '</li>');
     }
+});
+
+$(".fa-plus").click(function(){
+    $("input[type='text']").fadeToggle();
+    $("input[type='text']").focus();
 });
