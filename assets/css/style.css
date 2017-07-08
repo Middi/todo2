@@ -3,3 +3,8 @@
     border: 2px solid grey;
     width: 360px;
 }
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
